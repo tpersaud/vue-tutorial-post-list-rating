@@ -1,34 +1,44 @@
-/* body {
-  font-family: 'Source Sans Pro', sans-serif;
-} */
+body {
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    color: white;
+    background: black;
+    padding: 150px 0px;
+}
 
-h3, p {
-  margin: 0;
+main {
+    color: black;
+    background: white;
+    padding: 50px 0px;
+}
+
+h3,
+p {
+    margin: 0;
 }
 
 .post {
-  display: flex;
-  background: #D3D3D3;
-  padding: .5em;
-  margin-bottom: .5em;
-  border-radius: .25em;
-  align-items: center;
+    display: flex;
+    background: #D3D3D3;
+    padding: .5em;
+    margin-bottom: .5em;
+    border-radius: .25em;
+    align-items: center;
 }
 
 .form {
-  margin-bottom: .5em;
+    margin-bottom: .5em;
 }
 
-.post > div:not(:first-child) {
-  padding-left: 1em;
+.post>div:not(:first-child) {
+    padding-left: 1em;
 }
 
 span {
-  font-size: 1.5em;
-  padding: 5px; 
-  cursor: pointer;
+    font-size: 1.5em;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .votes {
-  font-size: .75em;
+    font-size: .75em;
 }
